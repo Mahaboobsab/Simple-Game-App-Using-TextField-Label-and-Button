@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A235771E0D38200FD815D4B87F88EB81D8880076",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A235771E0D38200FD815D4B87F88EB81D8880076" : 0,
+    "F8B575AA7AC36DA257A01E6F13362FBBAB8D391E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E38FB13D-2F18-40CE-A7FE-0389CAF08439",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A235771E0D38200FD815D4B87F88EB81D8880076" : "SimpleGameAppUsingTextField\/",
+    "F8B575AA7AC36DA257A01E6F13362FBBAB8D391E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SimpleGameAppUsingTextField",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SimpleGameAppUsingTextField\/SimpleGameAppUsingTextField.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Mahaboobsab\/Simple-Game-App-Using-TextField-Label-and-Button.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A235771E0D38200FD815D4B87F88EB81D8880076"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Mahaboobsab\/UIAlertView-Example-in-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8B575AA7AC36DA257A01E6F13362FBBAB8D391E"
+    }
+  ]
+}

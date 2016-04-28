@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *clickMeButton;
 
 @end
 
@@ -30,15 +31,25 @@
 int countButtonClick;
 - (IBAction)clickMeButton:(id)sender {
     countButtonClick++;
+   NSString *playAgain = @"Play Again";
+
+
+    
     
 startAgain: NSLog(@"Inside the touch button");
+      _labelFieldBottom.hidden = YES;
     [_labelFieldTop setBackgroundColor:[UIColor grayColor]];
+    
+    
+
     
     NSString *textValue = [_textFieldUserValue text];
     
     int textToInt = [textValue intValue];
     
+    
     //Creating string object by using text typed in text field
+    
     NSString *message = [[NSString alloc]initWithFormat:@"You have to tap for %i times",textToInt-1];
     
     
@@ -56,7 +67,7 @@ startAgain: NSLog(@"Inside the touch button");
     
     if(countButtonClick >1)
     {
-        //_textFieldUserValue.enabled = NO;
+       
         
         _textFieldUserValue.hidden  = YES;
        [ _labelFieldTop setText:nil];
@@ -72,17 +83,28 @@ startAgain: NSLog(@"Inside the touch button");
         
         [_labelFieldBottom setBackgroundColor:[UIColor grayColor]];
         [_labelFieldBottom setText:wonMessage];
+      
+        
+        self.labelFieldTop.text = playAgain;
+        
+        
         
     
     }
     
     if(countButtonClick >textToInt)
     {
-        countButtonClick = 1;
+        self.textFieldUserValue.text = nil;
+       self.clickMeButton.titleLabel.text = playAgain;
+        countButtonClick = 0;
         _textFieldUserValue.hidden  = NO;
-        
+       
         _labelFieldBottom.hidden = YES;
+        
         goto startAgain;
     }
+    
+    
+
 }
 @end
